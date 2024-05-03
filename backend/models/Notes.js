@@ -19,5 +19,5 @@ const NotesSchema = new Schema({
     }
   });
 
-  module.exports=('notes',NotesSchema)
+  module.exports=mongoose.model('notes',NotesSchema)
 
